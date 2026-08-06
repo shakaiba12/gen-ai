@@ -1,6 +1,7 @@
 from llm.client import client
 from prompts import SYSTEM_PROMPT
 import json
+
 def answer(question, document):
     """
     This function takes a question and a document as input, and returns an answer based on the provided information.
